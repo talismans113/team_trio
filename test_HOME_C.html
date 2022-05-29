@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&amp;subset=korean" rel="stylesheet">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbwMxYDrufp73bKdU8gMvxFDdHRuzcR4IKQUB33B7GqwyfyZS04/exec">
+
+<div class="navbar">
+  <a href="http://teamtrio.iptime.org/test_HOME_HOME.html">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="http://127.0.0.1:5500/test_HOME_company.html">Company</a>
+      <a href="#team">Team</a>
+      <a href="#careers">Careers</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">채점하기 <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="http://teamtrio.iptime.org/test_HOME_A.html">투자자산운용사</a>
+      <a href="http://127.0.0.1:5500/test_HOME_B.html">B유형</a>
+      <a href="http://127.0.0.1:5500/2%EB%B2%88%EC%95%88/test_HOME_C%EC%9C%A0%ED%98%95.html">C유형</a>
+      <a href="#express"></a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">마이페이지 <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">이전 결과</a>
+      <a href="#link2">시험 일정</a>
+      <a href="#link3">합격 추세</a>
+      <a href="#link4"></a>
+    </div>
+  </div>
+  <a href="#contact">Contact</a>
+</div>
+
+<div style="padding:0 16px">
+  <h3>환영합니다</h3>
+  <p>저희의 채점서비스에 오신 것을 환영합니다.</p>
+</div>
+
+<main class="contents">
+  <section id="유형">
+    <h2></h2>
+    <div class="detail">
+      <b><p></p></b>
+      <fieldset>
+
+        <section id="C유형">
+          <h2>C유형 채점하기</h2>
+          <div class="detail">
+            <b><p>C유형 20문항</p></b>
+            <fieldset>
+              <legend>정답을 입력해 주세요</legend>
+              <p><b>1번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>2번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>3번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>4번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>5번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>6번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>7번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>8번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>9번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>10번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>11번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>12번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>13번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>14번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>15번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>16번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>17번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>18번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>19번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <p><b>20번 문항</b></p>
+              <label><input type="radio"name=anser value="yes">1번</label>
+              <label><input type="radio"name=anser value="yes">2번</label>
+              <label><input type="radio"name=anser value="yes">3번</label>
+              <label><input type="radio"name=anser value="yes">4번</label>
+              <label><input type="radio"name=anser value="yes">5번</label>
+              <form action="">
+                <input type="submit">
+              </form>
+            </fieldset>
+          </div>
+  </section>
+
+
+</body>
+</html>
